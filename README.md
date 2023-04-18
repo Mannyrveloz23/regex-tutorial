@@ -27,7 +27,7 @@ This is a regex that matches an email address.
 ## Regex Components
 
 ### **Anchors**
-Anchors are used to specify where a match should occur in a string. There are two types of anchors: the caret `(^)` and the dollar sign `($)`. The caret is used to specify the beginning of the string, while the dollar sign is used to specify the end of the string. For example, the regex `/^hello/` will match any string that begins with "hello", while the regex /world$/ will match any string that ends with "world".
+Anchors are used to specify where a match should occur in a string. There are two types of anchors: the caret `(^)` and the dollar sign `($)`. The caret is used to specify the beginning of the string, while the dollar sign is used to specify the end of the string. For example, the regex `/^hello/` will match any string that begins with "hello", while the regex `/world$/` will match any string that ends with "world".
 
 ### **Quantifiers**
 Quantifiers are used to specify how many times a particular character or group of characters should be repeated. There are several quantifiers available in regular expressions, including the asterisk (*), the plus sign (+), and the question mark (?). For example, the regex /a*/ will match any string that contains zero or more "a" characters, while the regex /a+/ will match any string that contains one or more "a" characters.
